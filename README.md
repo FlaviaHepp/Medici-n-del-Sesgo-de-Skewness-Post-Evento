@@ -91,3 +91,65 @@ Cambio cercano a cero
 
 ## 👤Autora
 Flavia Hepp Proyecto de SQL aplicó un análisis de riesgo basado en eventos.
+
+***
+📊 **Después de un split… ¿cambia el tipo de riesgo?**
+
+Cuando una acción hace un split, la mayoría mira:
+
+👉 Precio más accesible
+👉 Mayor liquidez
+👉 Más participación minorista
+
+Pero hay una pregunta más interesante:
+
+🧠 **¿Cambia la forma del riesgo?**
+
+---
+
+📈 En este análisis medí:
+
+* La **asimetría de los retornos (skewness)**
+* 5 días antes vs. 5 días después de un split
+
+---
+
+⚠️ ¿Por qué importa el skewness?
+
+Porque no mide cuánto se mueve el precio…
+mide **hacia dónde es más probable que ocurran los extremos**:
+
+* Skewness positivo → mayor probabilidad de subas extremas 📈
+* Skewness negativo → mayor riesgo de caídas bruscas 📉
+
+---
+
+💡 Resultado clave:
+
+Después de un split, el perfil de riesgo puede cambiar significativamente:
+
+👉 Más sesgo positivo → comportamiento más “especulativo”
+👉 Más sesgo negativo → mayor fragilidad post-evento
+
+---
+
+🚨 Insight clave:
+**No solo cambia el precio… cambia la distribución del riesgo.**
+
+---
+
+🔍 ¿Qué permite esto?
+
+✔️ Entender si el evento atrae flujo especulativo
+✔️ Detectar cambios en la dinámica de retornos
+✔️ Ajustar estrategias según el nuevo perfil de riesgo
+
+---
+
+📉 En mercados financieros, no alcanza con medir volatilidad…
+hay que entender la *forma* de esa volatilidad.
+
+---
+
+#Quant #DataScience #Trading #Skewness #RiskManagement #Finanzas #EventDriven
+
